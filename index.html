@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Start JavaScript -->
+<script type="text/javascript">
+function register(){
+	document.getElementsByName("form").action="register.php";
+	document.getElementsByName("loginbutton").value="Register";
+	document.getElementsByName("UsertoEmail").value="Email Address";
+	document.getElementsByName("RegToLogin").innerHTML="Login";
+}
+</script>
+<!-- End JavaScript -->
+<link href="BandStandstyle.css" rel="stylesheet" type="text/css">
+<!-- Start MetaData Block -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- End MetaData Block -->
+<title>BandStand » Promotion Simplified</title>
+</head>
+<body id="body">
+<!-- Start Header -->
+	<div id="header"align="center">
+		<div id="headerbackground">
+			<div id="headertitle">BandStand</div>
+				<div id="headertagline" align="right">Promotion, Simplified</div>
+                <br />
+					<form name="search" action="indexsearh.php">
+					<input type="search" id="SearchBox" name="srchbox" placeholder="Search"/>
+					</form>
+				</div>
+			</div>
+<!-- End Header -->
+<!-- Start Body Header Links -->
+<div id="divbody" align="center">
+	<table align="center">
+		<tr>
+			<td id="headtable"><a href="index.html">Home</a>
+			</td>
+			<td id="headtable"><a href="about.html">About</a>
+			</td>
+			<td id="headtable"><a onclick="register()">Register</a>
+			</td>
+		</tr>
+	</table>
+<!-- End Body Header Links -->
+<br />
+<!-- Start Body Buttons and Login Tables -->
+<table align="center" width="75%">
+	<tr>
+		<td align="left">
+			<a href="UserIndex.html"><button id="button">Fans</button></a>
+		</td>
+		<td align="center">
+			<form action="login.php" name="form">
+			<input type="text" id="LoginBoxes" placeholder="Username" name="Username"/>
+<br />
+			<input type="password" placeholder="Password" name="Password" id="LoginBoxes"/>
+<br />
+<br/>
+			<input type="submit" value="Login"id="button" align="middle" name="loginbutton"/>
+            </form>
+		</td>
+		<td align="right">     
+			<a href="BandIndex.html"><button id="button">Bands</button></a> 
+		</td>
+	</tr>
+</table>
+<br />
+</div>
+<!-- End Body Buttons and Login Tables -->
+<!-- Start Footer -->
+	<div align="center" id="footer">©BandStand| Designed By: Sean McElhare & Daniel Marcoux </div>
+<!-- End Footer -->
+</body>
+<!-- Coded By: Sean McElhare 2013 -->
+</html>
