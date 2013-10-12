@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* index.html */
+/* DD7400 */
+@font-face {
+font-family:bodytext;
+src: url(Ubuntu-L.ttf);
+}
+@font-face {
+    font-family:futrfw;
+    src: url(GoodMorningAfternoon.ttf);
+}
+a {
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	background-color:#DD7400;
+	color:#FFFFFF
+}
+#body { 
+	background-color:#FFF; 
+	height:auto; 
+	width:auto; 
+	font-family:futrfw;
+	vertical-align:middle;
+    margin:0px;
+	}
+#header { 
+	vertical-align:middle; 
+	padding:0px;
+	padding-left:0px;
+	padding-right:0px; 
+	height:400px; 
+	width:100%; 
+	text-align:center; 
+	margin:0px;
+}
+#headerbackground {
+	vertical-align:middle; 
+	padding:0px;
+	padding-left:0px;
+	padding-right:0px; 
+	height:400px; 
+	width:100%;  
+	margin:0px;
+	background-image:url('header3.jpg');
+	background-repeat:no-repeat;
+	position:relative;
+	background-position:50% 40%;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+@keyframes changebackground
+{
+0%  {background-image:url('header.png');}
+25% {background-image:url('header2.jpg');}
+50% {background-image:url('header3.jpg');}
+75% {background-image:url('header4.jpg');}
+100% {background-image:url('header5.jpg');}	
+}
+#headertitle {	
+	font-size:150px;
+	font-weight:lighter;
+	font-family:futrfw;
+	color:#FFF;
+	vertical-align:middle;
+	padding:0px;
+	position:static;
+	z-index:1;
+}
+#headertagline {	
+	font-size:36px;
+	font-weight:lighter;
+	font-family:futrfw;
+	color:#FFF;
+	padding:0px;
+	padding-right:175px;
+	margin-top:0px;
+	position:static;
+	z-index:1;
+}
+#headtable {
+	text-align:center; 
+	text-shadow:#999; 
+	font-family:futrfw; 
+	font-size:24px; 
+	padding:25px;
+	padding-top:0px;
+	height:25px;
+	width:50px;
+	}
+#button{
+	font-family:futrfw;
+	font-size:36px;
+	color:#CCC;
+	padding:5px;
+	background-color:#FFF;
+	height:75px;
+	width:200px;
+	border-bottom-style:none;
+	border-color:transparent;
+	border-bottom-width:thin;
+}
+#button:hover{
+	background-color:#DD7400;
+	color:#FFFFFF
+}
+#footer{
+	color:#CCC;
+	font-size:16px;
+	height:20%;
+	width:100%;
+	vertical-align:bottom;
+}
+#divbody{
+	background-color:#FFF;
+	width:100%;
+	height:auto;
+	border:thin;
+	border-style:solid;
+	border-color:transparent;
+	vertical-align:middle;
+}
+#LoginBoxes{
+	text-align:center;
+	font-size:18px;
+	font-family:bodytext;
+	border:thin;
+	border-style:solid;
+	border-color:#CCCCCC;
+	height:37px;
+	vertical-align:middle;
+}
+#SearchBox{
+	text-align:center;
+	font-size:18px;
+	font-family:bodytext;
+	border:thin;
+	border-style:solid;
+	border-color:#3366FF;
+	height:37px;
+	position:static;
+	z-index:1;
+}
+#SearchBox:hover{
+	box-shaddow: 10px 10px 150px #3366FF;	
+}
+/* End of index.html */
+
+/* Start of about.html */
+
+#aboutheader{
+	width:100%;
+	height:40px;
+	font-family:futrfw;
+	font-size:36px;
+	font-weight:lighter;
+	padding-bottom:10px;
+	vertical-align:top;
+	color:#000000;
+	background-color:#FFFFFF;
+	margin-bottom:100px;
+}
+#aboutheaderpage{
+	color:#CCC;
+	font-family:futrfw;
+	font-size:36px;
+	font-weight:lighter;
+}
+#aboutbody{
+	background-color:DD7400;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+#bodywrapper{
+	margin-top:75px;
+	margin:50px;
+	background-color:#FFFFFF;
+	border:thin;
+	border-style:solid;
+	border-color:#CCC;
+	vertical-align:middle;
+	padding:5px;
+}
+#aboutdivbody{
+	font-family:futrfw;
+	font-weight:lighter;
+	color:#333;
+	font-size:24px;
+	padding:5px;
+}
+#aboutcontainers{
+	margin:15px;
+	padding:5px;
+	font-family:futrfw;
+	font-weight:lighter;
+}
+#aboutfontface{
+	font-family:bodytext;
+	font-weight:lighter;
+	color:#333;
+}
+#aboutimages{}
+
+/* End of about.html */
+/* Start of Fan and Band.html */
+
+#userheader{
+	width:100%;
+	height:40px;
+	font-family:futrfw;
+	font-size:36px;
+	font-weight:lighter;
+	padding-bottom:10px;
+	vertical-align:top;
+	color:#000000;
+	background-color:#FFFFFF;
+	margin-bottom:100px;
+}
+#userheaderusername{
+	color:#CCC;
+	font-family:futrfw;
+	font-size:36px;
+	font-weight:lighter;
+}
+#userbody{
+	background-color:#333;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+#userbodywrapper{
+	margin-top:75px;
+	margin:50px;
+	background-color:#FFFFFF;
+	border:thin;
+	border-style:solid;
+	border-color:#CCC;
+	padding:5px;
+}
+#usernamebodywrapper{
+	margin-top:10px;
+	margin:20px;
+	background-color:#FFFFFF;
+	border:thin;
+	border-style:solid;
+	border-color:#CCC;
+	padding:5px;
+}
+#userdivbody{
+	font-family:bodytext;
+	font-weight:lighter;
+	color:#333;
+	font-size:24px;
+	padding:5px;
+}
+#userspacer{
+}
+#userlinksbartable{
+	
+	
+	
+}
+#userfontface{
+	font-family:futrfw;
+	font-weight:lighter;
+	color:#333;
+}
+/*  User and Band Index Pages & Imports from aboutstyle*/
+
+#indexheader{
+	width:100%;
+	height:40px;
+	font-family:futrfw;
+	font-size:36px;
+	font-weight:lighter;
+	padding-bottom:10px;
+	vertical-align:top;
+	color:#000000;
+	background-color:#FFFFFF;
+	margin-bottom:100px;
+}
+#indexheaderpage{
+	color:#CCC;
+	font-family:futrfw;
+	font-size:36px;
+	font-weight:lighter;
+}
+#indexbody{
+	background-color:#3366FF;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+#indexbodywrapper{
+	margin-top:75px;
+	margin:50px;
+	background-color:#FFFFFF;
+	border:thin;
+	border-style:solid;
+	border-color:#CCC;
+	vertical-align:middle;
+	padding:5px;
+}
+#indexdivbody{
+	font-family:futrfw;
+	font-weight:lighter;
+	color:#333;
+	font-size:24px;
+	padding:5px;
+}
+#indexcontainers{
+	margin:15px;
+	padding:5px;
+	font-family:futrfw;
+	font-weight:lighter;
+}
+#indexfontface{
+	font-family:bodytext;
+	font-weight:lighter;
+	color:#333;
+}
+<!-- Coded By: Sean McElhare 2013 -->
