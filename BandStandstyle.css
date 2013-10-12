@@ -52,14 +52,6 @@ a:hover{
   	-o-background-size: cover;
   	background-size: cover;
 }
-@keyframes changebackground
-{
-0%  {background-image:url('header.png');}
-25% {background-image:url('header2.jpg');}
-50% {background-image:url('header3.jpg');}
-75% {background-image:url('header4.jpg');}
-100% {background-image:url('header5.jpg');}	
-}
 #headertitle {	
 	font-size:150px;
 	font-weight:lighter;
@@ -170,7 +162,7 @@ a:hover{
 	font-weight:lighter;
 }
 #aboutbody{
-	background-color:DD7400;
+	background-color:#FFB833;
 	margin-top:0px;
 	margin-left:0px;
 	margin-right:0px;
@@ -290,7 +282,7 @@ a:hover{
 	font-weight:lighter;
 }
 #indexbody{
-	background-color:#3366FF;
+	background-color:#51B8E1;
 	margin-top:0px;
 	margin-left:0px;
 	margin-right:0px;
